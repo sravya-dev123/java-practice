@@ -1,0 +1,12 @@
+public class typesofprint {
+    public static void main(String[] args) {
+        System.out.println("this is print new line");
+        System.out.print("this is not print a new line, this cannot make gaps on new line");
+        
+        System.err.printf("this is print %s and make %s"," percentage","better");
+        System.err.println("this err print colour line");
+          System.err.printf("this err print colour line,this can also change colour printf");
+   System.err.print("this err print colour line stmt worth this print stmt also");
+
+        }
+}
