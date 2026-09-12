@@ -1,27 +1,38 @@
 public class datatypes {
-public static void main(String[] args) {
-//float can store the 4 bytes 
-   System.out.println(Float.SIZE/8);
 
-   //character can store the 2 bytes 
-   System.out.println(Character.SIZE/8);
+    public static void main(String[] args) {
+        int Num = 5;               // Integer (whole number)
+float FloatNum = 5.99f;    // Floating point number
+char Letter = 'D';         // Character
+boolean Bool = true;       // Boolean
+String Text = "Hello";     //nrml text
 
-   //intger can store the 4 bytes 
-   System.out.println(Integer.SIZE/8);
+/*datatypes are two types:
+they are:
+Primitive data types - includes byte, short, int, long, float, double, boolean and char
+Non-primitive data types - such as String, Arrays and Classes (you will learn more about these in a later chapter)
+*/
 
-   //byte can store the 1 bytes 
-   System.out.println(Byte.SIZE/8);
 
-   //short can store the 2 bytes 
-   System.out.println(Short.SIZE/8);
+System.out.println("int datatype:"+Num);
+System.out.println("float datatype:"+FloatNum);
+System.out.println("char datatype:"+Letter);
+System.out.println("boolean datatype:"+Bool);
+System.out.println("string datatype:"+Text);
+/*Primitive Data Types
+A primitive data type specifies the type of a variable and the kind of values it can hold.
 
-   //long can store the 8 bytes 
-   System.out.println(Long.SIZE/8);
-   
-   //double can store the 8 bytes 
-   System.out.println(Double.SIZE/8);
-   
-   //character can store the 2 bytes 
-   System.out.println(Character.SIZE/8);
-}
+There are eight primitive data types in Java:
+
+Data Type	Description
+byte	Stores whole numbers from -128 to 127
+short	Stores whole numbers from -32,768 to 32,767
+int	Stores whole numbers from -2,147,483,648 to 2,147,483,647
+long	Stores whole numbers from -9,223,372,036,854,775,808 to 9,223,372,036,854,775,807
+float	Stores fractional numbers. Sufficient for storing 6 to 7 decimal digits
+double	Stores fractional numbers. Sufficient for storing 15 to 16 decimal digits
+boolean	Stores true or false values
+char	Stores a single character/letter or ASCII values
+*/
+    }
 }
